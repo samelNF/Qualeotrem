@@ -13,5 +13,7 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+        width: 10px;
+        heigth: 10px;
 	}
 
