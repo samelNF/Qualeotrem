@@ -1,15 +1,15 @@
-h1 {
-	color: pink;
-}
-body {
-	background-color: #1f1f1f;
-}
-h2 {
-	color: white;
-}
-.topo {
-	display: flex;
-    justify-content: space-between;
-    flex-direction: row
-}
+	h1 {
+		color: pink;
+	}
+	body {
+		background-color: #1f1f1f;
+	}
+	h2 {
+		color: white;
+	}
+	.topo {
+		display: flex;
+    	justify-content: space-between;
+    	flex-direction: row;
+	}
 
