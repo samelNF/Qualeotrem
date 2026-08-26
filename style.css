@@ -1,6 +1,6 @@
 	h1 {
         color: #f1f1f1;
-        font-size: 30px;
+        font-size: 500px;
 	}
 	body {
         background-color: #1f1f1f;
@@ -14,8 +14,4 @@
         justify-content: space-between;
         flex-direction: row;
 	}
-    button {
-        width: 10px;
-        heigth: 10px;
-    }
 
