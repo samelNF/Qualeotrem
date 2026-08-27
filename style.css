@@ -9,7 +9,7 @@
         color: white;
         font-size: 30px
 	}
-	.topo button {
+	.topo {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
