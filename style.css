@@ -9,12 +9,12 @@
         color: white;
         font-size: 50px
 	}
-	.topo {
+	.topo button {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
         color: yellow;
-        width: 15px;
-        height: 15px;
+        width: 150px;
+        height: 150px;
 	}
 
