@@ -13,8 +13,8 @@
         display: flex;
         justify-content: space-between;
         flex-direction: row;
+        color: yellow;
         width: 15;
         heigth: 15;
-        color: #ffff44;
 	}
 
