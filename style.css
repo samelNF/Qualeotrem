@@ -1,39 +1,122 @@
+	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 	h1 {
         color: white;
         font-size: 33px;
+		font-family: sans-serif;
+	}
+	.conversa {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		padding-top: 15px;
 	}
 	body {
         background-color: #0A0A0A;
 	}
-	h2 {
-        color: white;
-        font-size: 30px
-	}
 	.topo {
         display: flex;
-        justify-content: space-between;
-        flex-direction: row;
+		justify-content: space-between;
+		flex-direction: row;
+		width: 95%;
+		height: 50px;
+		background-color: #0A0A0AB3;
+		top: 0;
+		position: fixed;
+		padding: 15;
 	}
-	.topo button {
+	.camera {
+		filter: brightness(0) invert(1);
+		transform: rotateY(180deg);
+	}
+	.plusi {
+		width: 85%;
+		height: 85%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.cinza {
         color: white;
         border-radius: 100px;
-        font-size: 15px;
-        width: 35px;
-        height: 35px;
+        font-size: 20px;
+        width: 45px;
+        height: 45px;
+		background-color: #292929;
+		border: none;
+		outline: none;
 	}
-        .pesquisa {
-            display: flex;
-            align-items: center;
-            width: 90%;
-            height: 45px;
-            background-color: #222222;
-            border-radius: 20px;
-        }
-
-        .pesquisa input {
-            background: transparent;
-            border: none;
-            outline: none;
-            color: #959393;
-            font-size: 16px;
-        }
+	.pesquisa {
+		display: flex;
+		justify-items: center;
+		align-items: center;
+		width: 100%;
+		height: 45px;
+		background-color: #222222;
+		border-radius: 2000px;
+	}
+	.pesquisa input {
+		background: transparent;
+		border: none;
+		outline: none;
+		color: #959393;
+		font-size: 22px;
+	}
+	.pesquisa label {
+		font-size: 50px;
+		color: #959393;
+		transform: rotateY(180deg);
+		padding-right: 8px;
+	}
+	.baixo {
+		display: flex;
+		justify-content: center;
+		width: 80%;
+		height: 45px;
+		background-color: #FAFAFA40;
+		border-radius: 1000px;
+		position: fixed;
+		padding: 15px;
+		bottom: 0px;
+		right: 6%;
+		left: 6%;
+	}
+	.baixo button {
+		width: 40%;
+		height: 45px;
+		border: none;
+		background-color: transparent;
+		color: #FAFAFA;
+		display: flex;
+		align-items: flex-end;
+		padding-left: 30px;
+	}
+	.chat {
+		width: 90%;
+		height: 90%;
+		object-fit: contain;
+		filter: brightness(0) invert(1);
+	}
+	.coisa {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.verde {
+        color: #0A0A0A;
+        border-radius: 100px;
+        font-size: 30px;
+        width: 45px;
+        height: 45px;
+		background-color: #21C063;
+		border: none;
+		outline: none;
+		right: 0;
+	}
+	.contatos ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		color: #FAFAFA;
+		font-family: sans-serif;
+	}
