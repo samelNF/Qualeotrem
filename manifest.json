@@ -1,7 +1,7 @@
 {
   "name": "WhatisApp",
   "short_name": "WhatisApp",
-  "start_url": "/",
+  "start_url": "./",
   "display": "standalone",
   "icons": [
     {
